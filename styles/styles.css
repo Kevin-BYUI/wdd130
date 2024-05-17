@@ -1,8 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rock+Salt&display=swap');
-body {
-  font-family: 'Roboto';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-h1 {
-  font-family: 'Rock Salt';
+/* class selectors */
+.box {
+  margin: 1rem;
+  border: 1px solid rgba(0,0,0,.1);
+  padding: 1rem;
+  background-color: #ddd;
+  color: #000;
 }
+aside {
+  width: 20em;
+  padding: 1rem;
+  color: #000;
+}
+main img {
+  float: right;
+  margin: 2rem;
+  padding: 1rem; 
+  
+}
+main p {
+  margin: 1rem;
+  border: 1px solid rgba(0,0,0,.1);
+  padding: 1rem;
+  background-color: #ddd;
+  color: #000;
+  text-align: initial;
+}
+aside h2 {
+  position: absolute;
+  top: 550px;
+  left: 300px;
+}
+
+
