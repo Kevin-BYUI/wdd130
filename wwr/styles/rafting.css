@@ -1,1 +1,128 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* File: wwr/styles/rafting.css */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Define CSS variables for color scheme */
+:root {
+    --primary-color: #007BFF; /* Example Primary Color - Bright Blue */
+    --secondary-color: #6C757D; /* Example Secondary Color - Gray */
+    --accent-color: #28A745; /* Example Accent Color - Green */
+    --background-color: #FFFFFF; /* Example Background Color - White */
+    --text-color: #343A40; /* Example Text Color - Dark Gray */
+    --light-color: #F8F9FA; /* Example Light Color - Very Light Gray */
+    --dark-color: #212529; /* Example Dark Color - Very Dark Gray */
+}
+
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+
+header img {
+    height: 50px;
+}
+
+nav a {
+    margin: 0 15px;
+    color: var(--background-color);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--accent-color);
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hero h1, .hero article {
+    position: absolute;
+    color: var(--background-color);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero h1 {
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3rem;
+}
+
+.hero article {
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 600px;
+}
+
+.hero article img {
+    float: right;
+    margin-left: 20px;
+    width: 150px;
+}
+
+section {
+    padding: 20px;
+}
+
+section h2 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    margin: 0 10px;
+    color: var(--light-color);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--accent-color);
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+}
+.styles img {
+    display: block;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 200px;
+}
