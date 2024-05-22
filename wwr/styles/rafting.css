@@ -1,8 +1,4 @@
-/* File: wwr/styles/rafting.css */
-
-/* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 /* Define CSS variables for color scheme */
 :root {
     --primary-color: #007BFF; /* Example Primary Color - Bright Blue */
@@ -39,7 +35,7 @@ header img {
 nav a {
     margin: 0 15px;
     color: var(--background-color);
-    text-decoration: none;
+    
 }
 
 nav a:hover {
@@ -109,7 +105,6 @@ footer {
 footer a {
     margin: 0 10px;
     color: var(--light-color);
-    text-decoration: none;
 }
 
 footer a:hover {
