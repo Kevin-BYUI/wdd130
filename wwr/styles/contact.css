@@ -1,0 +1,183 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #444;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0.5rem;
+}
+
+nav ul.top-nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #555;
+    padding: 0.5rem;
+}
+
+nav ul.main-nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 0.5rem;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+nav ul li a:hover, nav ul li .dropbtn:hover {
+    background-color: #666;
+}
+
+nav ul li .dropbtn {
+    cursor: pointer;
+}
+
+nav ul li .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+nav ul li .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #666;
+    min-width: 160px;
+    z-index: 1;
+}
+
+nav ul li .dropdown-content a {
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    display: block;
+}
+
+nav ul li .dropdown-content a:hover {
+    background-color: #777;
+}
+
+nav ul li .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Main styles */
+main {
+    padding: 2rem;
+}
+
+/* Employee profile styles */
+.employee-profiles {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.employee-profiles .profile {
+    text-align: center;
+}
+
+.employee-profiles .profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 0.5rem;
+}
+
+.employee-profiles .caption {
+    font-style: italic;
+    color: #666;
+}
+
+/* Contact form styles */
+.contact-form {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.contact-form h2 {
+    margin-bottom: 1rem;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+.contact-form button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
